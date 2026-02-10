@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Zen_Maru_Gothic, Inter, Playfair_Display } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import Header from "@/components/header";
 import "./globals.css";
 
@@ -39,6 +40,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <Analytics />
       </body>
     </html>
   );
