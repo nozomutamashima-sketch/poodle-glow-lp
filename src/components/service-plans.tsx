@@ -41,7 +41,7 @@ export default function ServicePlans() {
                                 <ul className="space-y-3">
                                     <li className="flex items-center gap-3">
                                         <Check className="w-5 h-5 text-accent shrink-0" />
-                                        <span className="text-foreground/90">顔タイプ診断資料</span>
+                                        <span className="text-foreground/90">顔タイプ診断資料付き</span>
                                     </li>
                                     <li className="flex items-center gap-3">
                                         <Check className="w-5 h-5 text-accent shrink-0" />
